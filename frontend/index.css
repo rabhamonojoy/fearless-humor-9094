@@ -1,0 +1,130 @@
+#container{
+    width: 98%;
+    margin-left: 10px;
+}
+#logo{
+    width: 100px;
+    padding-bottom: 100px;
+}
+#logo>img{
+    width: 100%;
+   padding-bottom: 100px;
+}
+#nav{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 50px;
+}
+#nav>div:nth-child(1){
+   
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    list-style: none;
+    gap: 30px;
+}
+#nav>div:nth-child(2){
+    display: flex;
+    gap: 40px;
+}
+#image>img{
+    width: 100%;
+    margin-top: 5px;
+}
+#tag{
+    text-align: center;
+}
+#get-coock{
+    display: flex;
+    justify-content: space-evenly;
+}
+#get-coock div{
+    width: 400px;
+    text-align: center;
+   
+} 
+#get-coock div>img{
+    width: 100%;
+} 
+
+#get-started{
+    display: flex;
+    justify-content: center;
+}
+#cookin{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    border-radius: 50px;
+    color: white;
+    width: 150px;
+    margin: 0 auto;
+    
+}
+#choose{
+    text-align: center;
+    color: #002684;
+}
+/* #choose>h1{
+    color: #002684;
+} */
+/* browse */
+#browse{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(5,1fr);
+    text-align: center;
+    
+}
+#browse>div img{
+    width: 100%;
+}
+#browse>div h5{
+    color: #002684;
+    padding: 0px;
+    margin: 8px;
+}
+#browse>div p{
+    color: grey;
+    
+    margin: 5px;
+    /* margin-bottom: 5px; */
+}
+#browse-child{
+    display: flex;
+    justify-content: center;
+    border:3px solid #002684;
+    color: #002684;
+    border-radius: 50px;
+    width: 300px;
+    margin: 0 auto;
+}
+#footer{
+    background-color: #002684;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    color: #A1BCE6;
+
+}
+#footer>p{
+    padding-left: 20px;
+
+}
+#parent{
+    display: flex;
+    justify-content: space-between;
+   padding-left: 20px;
+   padding-right: 20px;
+   color: #A1BCE6;
+ 
+    
+}
+#child{
+    display: flex;
+    gap: 20px;
+    color: #A1BCE6;
+    /* text-align: center; */
+}
