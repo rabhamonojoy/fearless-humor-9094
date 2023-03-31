@@ -1,0 +1,21 @@
+#signature{
+    display: flex;
+    justify-content: space-between;
+}
+#week{
+    display: flex;
+    justify-content: space-between;
+    color: blue;
+}
+#cookin{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    border-radius: 50px;
+    color: white;
+    width: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0 auto;
+    
+}

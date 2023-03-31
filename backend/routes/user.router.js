@@ -6,10 +6,10 @@ const userRouter=express.Router()
 
 userRouter.post("/register",async (req,res)=>{
 
-    const {name,email,gender,password,age,city,is_married}=req.body
+    const {First_name,Last_name,email,password}=req.body
     try{
         bcrypt.hash(password,5,async (err, hash)=> {
-            const user=new userModel({name,email,gender,password:hash,age,city,is_married})
+            const user=new userModel({First_name,Last_name,email,password})
            await user.save()
             res.send("Registration has been done")
         });

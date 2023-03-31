@@ -1,12 +1,10 @@
 const mongoose=require("mongoose")
 const userSchema=mongoose.Schema({
-    name:String,
+    First_name:String,
+    Last_name:String,
     email:String,
-    gender:String,
-    password:String,
-    age:Number,
-    city:String,
-   is_married:Boolean
+    password:String
+   
 
 
 },{
