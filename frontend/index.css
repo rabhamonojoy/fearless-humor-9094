@@ -4,11 +4,18 @@
 }
 #logo{
     width: 100px;
-    padding-bottom: 100px;
+    margin-left: 50px;
+    
+  
+
+    
 }
 #logo>img{
-    width: 100%;
-   padding-bottom: 100px;
+    width: 70%;
+    margin-bottom: 20px;
+    
+   
+   
 }
 #nav{
 
@@ -16,9 +23,12 @@
     justify-content: space-between;
     margin-top: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    height: 50px;
+    height: 70px;
+    margin-left: 10px;
+    /* padding-left: 10px; */
+    
 }
-#nav>div:nth-child(1){
+#nav>div:nth-child(2){
    
     display: flex;
     text-align: center;
@@ -26,13 +36,17 @@
     list-style: none;
     gap: 30px;
 }
-#nav>div:nth-child(2){
+#nav>div:nth-child(3){
     display: flex;
     gap: 40px;
+    margin-right: 100px;
+    margin-top: 20px;
 }
 #image>img{
     width: 100%;
     margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 #tag{
     text-align: center;
