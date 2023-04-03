@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="./login.css">
+    <title>Sigup</title>
+    <link rel="stylesheet" href="./sigup.css">
 </head>
 <body>
     <nav id="nav">
@@ -26,30 +26,39 @@
 
     </nav>
 
-
-    <div id="home">
-        <h2>Log In</h2>
-        <!-- <p>Home  Account</p> -->
-    </div>
-   
+    <!-- form -->
     <div id="con">
-        <div id="Login">
-            <form action="#" id="form">
-                <h2>Log In</h2>
-                <input type="email" placeholder="Email" id="email1"><br>
-                <input type="password" placeholder="Password" id="password1"><br>
-                <a href="">Forgot Your Password ?</a>
-                <br>
-                <input type="submit" id="submit">
-                <div id="Facebook" >Sign in with Facebook <i class="fa-brands fa-facebook"></i> </div>
-                <div id="Google">Sign In with Google <i class="fa-brands fa-google"></i></div>
-            </form>
-        </div>
-     
+        <form id="SignUp">
+            <h2>Register</h2> 
+            <input type="text" placeholder="First Name" id="First" required>
+            <br>
+            <input type="text" placeholder="Last Name" id="Last" required>
+            <br>
+            <input type="email" placeholder="Email" id="email"  required>
+            <br>
+    
+            <input type="password" placeholder="Password" id="password" required>
+           
+            
+            <input type="submit" id="register" placeholder="Register">
+            
+           
+            <!-- <input type="submit" id="register"> -->
+
+            <p>Sign up for early sale plus tailored new,<br> arrivals, trends and promotion.To opt out <br>,click unsubscribe in our emails</p><br>
+            <!-- <div id="register">Register </i></div> -->
+            
+        <div id="LogIn">Log In </div> 
+        <div id="Facebook" >Sign in with Facebook  <i class="fa-brands fa-facebook"></i></div>
+        <div id="Google">Sign In with Google <i class="fa-brands fa-google"></i></div>
+            
+        
+        </form>
+        
 
     </div>
 
-
+    <!-- footer -->
     <footer id="footer">
         <div id="parent">
             <div id="child">
@@ -102,6 +111,8 @@
         <p>If you are using a screen reader and are having problems using this website, please call 1-844-462-8299 for assistance.</p>
     </footer>
 
+
     
 </body>
 </html>
+<script src="./signup.js"></script>
