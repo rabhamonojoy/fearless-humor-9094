@@ -1,0 +1,229 @@
+#logo{
+    width: 100px;
+    margin-left: 50px;
+    
+  
+
+    
+}
+#logo>img{
+    width: 70%;
+    margin-bottom: 20px;
+    
+   
+   
+}
+#nav{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 70px;
+    margin-left: 10px;
+    /* padding-left: 10px; */
+    
+}
+#nav>div:nth-child(2){
+   
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    list-style: none;
+    gap: 30px;
+}
+#nav>div:nth-child(3){
+    display: flex;
+    gap: 40px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+/* register */
+#SignUp{
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 400px;
+    height: 600px;
+    margin-top: 20px;
+    margin-left: 550px;
+    padding-left: 100px;
+    border-radius: 5px;
+    padding-top: 20px;
+}
+#register{
+   margin-top: 5px;
+    background-color:black;
+    color: white;
+   text-align: center;
+   width: 250px;
+   height: 20px;
+   padding-top: 5px;
+   border-radius: 5px;
+   font-size: 20px;
+   padding-bottom: 25px;
+   text-align: center;
+   
+}
+#SignUp>input{
+    text-align: center;
+    width: 250px;
+    margin-top: 10px;
+    height: 20px;
+    border-radius: 3px;
+    box-shadow: rgba(236, 228, 228, 0.35) 0px 5px 15px;
+
+}
+
+#LogIn{
+   
+   margin-top: 10px;
+   text-align: center;
+   width: 250px;
+   height: 30px;
+   padding-top: 10px;
+   border-radius: 5px;
+   border:2px solid black; 
+}
+#LogIn:hover{
+   background-color: black;
+   color: white;
+}
+#Facebook{
+   display: flex;
+    margin-top: 10px;
+    text-align: center;
+    width: 250px;
+    height: 35px;
+    padding-top: 5px;
+    border-radius: 5px;
+    border:2px solid black; 
+    background-color: #3B5998;
+    color: white;
+    padding-top: 10px;
+    justify-content: space-evenly;
+ }
+ 
+
+ #Google{
+   display: flex;
+    margin-top: 10px;
+    text-align: center;
+    width: 250px;
+    height: 30px;
+    padding-top: 5px;
+    border-radius: 5px;
+    border:2px solid black;
+    background-color: #DD4B39; 
+    color: aliceblue;
+    padding-top: 10px;
+    justify-content: space-evenly;
+
+ }
+ #SignUp{
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 400px;
+    height: 600px;
+    margin-top: 20px;
+    margin-left: 550px;
+    padding-left: 100px;
+    border-radius: 5px;
+    padding-top: 20px;
+}
+#register{
+   margin-top: 5px;
+    background-color:black;
+    color: white;
+   text-align: center;
+   width: 250px;
+   height: 20px;
+   padding-top: 5px;
+   border-radius: 5px;
+   font-size: 20px;
+   padding-bottom: 25px;
+   text-align: center;
+   
+}
+#SignUp>input{
+    text-align: center;
+    width: 250px;
+    margin-top: 10px;
+    height: 20px;
+    border-radius: 3px;
+    box-shadow: rgba(236, 228, 228, 0.35) 0px 5px 15px;
+
+}
+
+#LogIn{
+   
+   margin-top: 10px;
+   text-align: center;
+   width: 250px;
+   height: 30px;
+   padding-top: 10px;
+   border-radius: 5px;
+   border:2px solid black; 
+}
+#LogIn:hover{
+   background-color: black;
+   color: white;
+}
+#Facebook{
+   display: flex;
+    margin-top: 10px;
+    text-align: center;
+    width: 250px;
+    height: 35px;
+    padding-top: 5px;
+    border-radius: 5px;
+    border:2px solid black; 
+    background-color: #3B5998;
+    color: white;
+    padding-top: 10px;
+    justify-content: space-evenly;
+ }
+ 
+
+ #Google{
+   display: flex;
+    margin-top: 10px;
+    text-align: center;
+    width: 250px;
+    height: 30px;
+    padding-top: 5px;
+    border-radius: 5px;
+    border:2px solid black;
+    background-color: #DD4B39; 
+    color: aliceblue;
+    padding-top: 10px;
+    justify-content: space-evenly;
+
+ }
+
+
+ #footer{
+    background-color: #002684;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    color: #A1BCE6;
+
+}
+#footer>p{
+    padding-left: 20px;
+
+}
+#parent{
+    display: flex;
+    justify-content: space-between;
+   padding-left: 20px;
+   padding-right: 20px;
+   color: #A1BCE6;
+ 
+    
+}
+#child{
+    display: flex;
+    gap: 20px;
+    color: #A1BCE6;
+    /* text-align: center; */
+}
